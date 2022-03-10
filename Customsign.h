@@ -15,4 +15,7 @@ void loop() {
   delay(1000);
   lcd.clear();
   lcd.print("This is a different");
+  lcd.setcursor(0, 2);
+  lcd.print("sign.")
+  delay
 }
